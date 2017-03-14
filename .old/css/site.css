@@ -1,0 +1,105 @@
+body {
+  font-family: "Crimson Text", "Times New Roman", serif;
+  background-color: #F2FFFC;
+  font-size: 120%;
+  line-height: 1.5;
+}
+h1, h2 {
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+.principal h1 {
+  text-align: center;
+  background-color: #851944;
+  color: #FFF;
+  padding: 25px;
+  border-bottom: 10px solid #000;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+p {
+  text-align: justify;
+  margin: 20px 0;
+}
+.navegacao-site {
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+  padding: 20px;
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  top: 310px;
+  right: 0;
+}
+.rodape {
+  background-color: #000;
+  color: #F2FFFC;
+  padding: 20px;
+}
+.principal a {
+  color: #851944;
+}
+.navegacao-site a {
+  color: inherit;
+  font-family: "Open Sans Condesed", "Arial", sans-serif;
+  text-transform: lowercase;
+}
+.conteudo {
+  width: 720px;
+  margin: auto;
+  padding: 30px 0;
+}
+h2 {
+  font-size: 30px;
+  clear: both;
+}
+.navegacao-site h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+.icones-redes-sociais li {
+  display: inline-block;
+}
+.icones-redes-sociais a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-indent: -9999px;
+}
+.github {
+  background-image: url(../img/github.png);
+}
+.twitter {
+  background-image: url(../img/twitter.png);
+}
+.linkedin {
+  background-image: url(../img/linkedin.png);
+}
+.foto-perfil, .navegacao-site {
+  border-left: 10px solid #000;
+  border-bottom: 10px solid #000;
+  box-sizing: border-box;
+}
+.principal {
+  width: 80%;
+  padding-bottom: 80px;
+  float: left;
+}
+.rodape {
+  position: fixed;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.foto-perfil {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
